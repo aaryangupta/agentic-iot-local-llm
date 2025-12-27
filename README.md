@@ -60,15 +60,21 @@ pip install -r requirements.txt
 ```
 
 ### 2. Install and run Ollama
+```bash
 ollama pull mistral
 ollama serve
+```
 
 ### 3. Start the agent
+```bash
 cd agent
 python agent_main.py
+```
 
 ### 4. Run the dashboard
+```bash
 python -m streamlit run dashboard.py
+```
 
 ### 5. Flash ESP32 firmware
 
