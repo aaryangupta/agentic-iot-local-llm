@@ -33,9 +33,9 @@ This project is designed to be:
 - **hackable**
 
 ---
+## Architecture
 
 ```markdown
-## Architecture
 
 ESP32
 ↓
