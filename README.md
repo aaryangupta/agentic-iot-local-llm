@@ -34,14 +34,23 @@ This project is designed to be:
 
 ---
 
+```markdown
 ## Architecture
 
-ESP32 → MQTT → Python Agent → LLM (Ollama)
+ESP32
 ↓
-Memory + Logs → Dashboard
+MQTT
 ↓
-MQTT Control → ESP32
+Python Agent
+├─→ LLM (Ollama)
+├─→ Memory + Logs
+└─→ Dashboard
+↓
+MQTT Control
+↓
+ESP32
 
+```
 ---
 
 ## Requirements
