@@ -36,3 +36,50 @@ This project is designed to be:
 
 ## Architecture
 
+ESP32 → MQTT → Python Agent → LLM (Ollama)
+↓
+Memory + Logs → Dashboard
+↓
+MQTT Control → ESP32
+
+---
+
+## Requirements
+
+- Python 3.10+
+- ESP32-C3 (or simulated sensor data)
+- Ollama (local LLM runtime)
+- MQTT broker (HiveMQ public broker works)
+
+## Quick Start (10 minutes)
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+
+```
+
+### 2. Install and run Ollama
+ollama pull mistral
+ollama serve
+
+### 3. Start the agent
+cd agent
+python agent_main.py
+
+### 4. Run the dashboard
+python -m streamlit run dashboard.py
+
+### 5. Flash ESP32 firmware
+
+Upload the firmware from firmware/ and open Serial Monitor.
+
+## Project Status
+
+v0.1 – Educational foundation  
+This project is intended for learning and experimentation.
+It is not designed for safety-critical systems.
+
+## License
+
+MIT License
