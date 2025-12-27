@@ -56,7 +56,6 @@ MQTT Control → ESP32
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
-
 ```
 
 ### 2. Install and run Ollama
