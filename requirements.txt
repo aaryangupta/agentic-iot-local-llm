@@ -1,0 +1,10 @@
+paho-mqtt
+langchain
+openai
+python-dotenv
+requests
+langchain-ollama 
+pandas
+streamlit 
+matplotlib
+langchain-community
