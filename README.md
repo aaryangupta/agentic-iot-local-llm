@@ -18,7 +18,7 @@ This project demonstrates how an IoT system can **observe, reason, act, remember
 
 ---
 
-## Why this exists
+## Why this exists lets find out
 
 Most “agentic AI” IoT demos:
 - hardcode thresholds
