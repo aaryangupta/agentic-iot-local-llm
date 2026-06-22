@@ -15,7 +15,7 @@ sys.path.append(str(AGENT_DIR))
 st.set_page_config(page_title="Agentic IoT Dashboard", layout="wide")
 
 
-print ("Workslow satrted")
+print ("Hello LPU")
 # --- Sidebar info ---
 st.sidebar.header("Reading files from:")
 st.sidebar.markdown(f"📄 `{LOG_FILE}`")
