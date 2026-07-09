@@ -11,7 +11,7 @@
 Adafruit_NeoPixel rgb_led(NUM_PIXELS, RGB_LED_PIN, NEO_GRB + NEO_KHZ800);
 
 const char* ssid = "moto";
-const char* password = "Hello@1234";
+const char* password = "Hello";
 
 const char* mqtt_server = "broker.hivemq.com";
 const int mqtt_port = 1883;
