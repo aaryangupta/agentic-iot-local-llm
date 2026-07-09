@@ -6,7 +6,7 @@
 
 #define RGB_LED_PIN 8       // Built-in RGB LED on ESP32-C3-DevKit-02
 #define NUM_PIXELS 1        // Only one LED on the board
-#define BRIGHTNESS 50       // Adjust brightness (0–255)
+#define BRIGHTNESS 100       // Adjust brightness (0–255)
 
 Adafruit_NeoPixel rgb_led(NUM_PIXELS, RGB_LED_PIN, NEO_GRB + NEO_KHZ800);
 
